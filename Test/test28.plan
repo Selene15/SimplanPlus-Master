@@ -1,0 +1,11 @@
+{
+    int x = 6;
+
+    int f(int x){
+        return x;
+        print(3);
+        return 3;
+    }
+
+    f(x);
+}

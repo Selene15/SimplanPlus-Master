@@ -1,0 +1,28 @@
+{
+    void g(int x){
+        print(x);
+    }
+
+    void f(int x){
+        int g(int x){
+            if(x == 0){
+                return 0;
+            }
+            return x + g(x - 1);
+        }
+        print(g(x));
+    }
+
+    void stampa(int x){
+        int g(int x){
+            if(x == 0){
+                return 1;
+            }
+            return x * g(x-1);
+        }
+        print(g(x));
+    }
+    g(3);
+    f(4);
+    stampa(4);
+}

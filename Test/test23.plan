@@ -1,0 +1,12 @@
+{
+    void f(^int x, ^int y, int z){
+        delete x;
+        y^=3;
+        z=5;
+    }
+
+    ^int x;
+    int z;
+
+    f(x,x,z);
+}

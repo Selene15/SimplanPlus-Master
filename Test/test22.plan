@@ -1,0 +1,11 @@
+{
+    int g (int x){
+        return x+2;
+    }
+
+    int f(int z){
+        return z*z;
+    }
+
+    print(f(5)+g(3));
+}

@@ -1,0 +1,8 @@
+{
+    int x = 1;
+    void f(int y){
+        if (y == 0) print(y);
+        else  f(y-1) ;
+    }
+    f(5) ;
+}

@@ -1,0 +1,15 @@
+{
+    ^int x;
+
+    ^int f(^int z){
+        return x;
+    }
+
+    void g(^int y){
+        f(y);
+        return;
+    }
+
+    g(x);
+
+}

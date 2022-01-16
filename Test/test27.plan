@@ -1,0 +1,10 @@
+{
+    ^int x;
+
+    void g(^int y){
+        delete y;
+    }
+
+    g(x);
+    g(x);
+}

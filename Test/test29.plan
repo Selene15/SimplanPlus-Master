@@ -1,0 +1,11 @@
+{
+    int fun(int y){
+        ^int x = new int;
+        int g(^int z){
+             return z^;
+        }
+        x^ = 2;
+        return y + g(x);
+    }
+    return fun(3);
+}

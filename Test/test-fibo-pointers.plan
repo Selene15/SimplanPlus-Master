@@ -1,0 +1,17 @@
+{
+    ^int x= new int;
+    int f(^int y, int count){
+        if(count == 0){
+            y^ = 0;
+            return 0;
+        }
+        if(count==1 || count==2){
+         y^ = 1;
+         return y^;
+        }
+        y^ =  f(y, count - 1)+ f(y, count - 2);
+        return y^;
+    }
+    f(x,10);
+    return x^;
+}

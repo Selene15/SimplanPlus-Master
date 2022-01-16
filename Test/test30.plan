@@ -1,0 +1,10 @@
+{
+    void f(int x){
+        if(x == 4){
+            {return 4;}
+        } else {
+            {return 5;}
+        }
+        print(x);
+    }
+}

@@ -1,0 +1,10 @@
+{
+int f(int y){
+    int x = 2;
+    if (y > 0)
+        return x + y;
+    else
+        return x + y ;
+ }
+f(-5) ;
+}

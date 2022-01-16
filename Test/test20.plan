@@ -1,0 +1,10 @@
+{
+    ^int x;
+    int y;
+    if(y == x^){
+        delete x;
+    } else {
+        y = y+1;
+    }
+    x^ = 3;
+}

@@ -1,0 +1,1 @@
+{^int x = new int; x^ = 1 ; delete x ; y = x^ ;}
