@@ -1,2 +1,2 @@
 # SimplanPlus-Master
-Realizzazione di un sistema di ANALISI SEMANTICA per il linguaggio SimpLanPlus 
+Realizzazione di un sistema di analisi semantica per il linguaggio SimpLanPlus 
